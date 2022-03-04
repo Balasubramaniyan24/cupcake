@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
+.Intro{
+    width: 100vw;
+    //height: 100vh;
+    box-sizing: border-box;
+    background-color:#FCEFD2;
+    padding: 0 7vw;
+    @media screen and (min-width:512px) {
+       display: flex;
+       justify-content: center;
+       align-content: center;
+     }
+
+    &__Left{
+
+    &__Title{
+        color: #642C99;
+        font-family: Wendy One ;
+        font-weight: 400;
+        font-size: 3rem;
+        padding-top: 5vw;
+    }
+    @media screen and (min-width:512px) {
+        &__Title{
+            font-size: 8rem;
+            padding-top: 7rem;
+        } 
+     }
+    p{
+        padding: 5vw 0;
+        line-height: 40px;
+        font-weight: 400;
+        font-size: 1rem;
+        color: #642C99;
+    }
+    @media screen and (min-width:512px) {
+        p{
+            padding: 3vw 0;
+            font-size: 1.5rem;
+        }
+    }
+    button{
+        width: 50%;
+        height:40px;
+        color: #FCEFD2;
+        background-color: #642C99;
+        font-size:16px;
+        border-radius: 10px;
+        margin-right: 34%;
+        font-weight: 400;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    @media screen and (min-width:512px) {
+     button{
+         width: 17vw;
+         height:50px;
+         font-size: 1.2rem;
+         margin-bottom: 5vw;
+     } 
+    }
+    }
+    &__Right{
+      
+    img{
+     width:250px;
+    margin: 10vw 3vw;
+    }
+     @media screen and (min-width:512px) {
+         img{
+          width:25vw;
+          margin: 6vw 0 2vw 20vw ;
+         }
+       }
+        }
+        @media screen and (min-width:512px) {
+         display: flex;
+         flex-direction: row;
+        }
+    
+    }
+  

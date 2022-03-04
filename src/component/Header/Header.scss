@@ -1,0 +1,41 @@
+.Header{
+    background-color: #FCEFD2;
+    width: 100vw;
+    
+    &__Left{
+      display:flex;
+      color: #642C99;
+      font-weight: 300;
+      font-size: 1.5rem;
+
+      @media screen and (max-width:768px){  
+        display:none;
+      }
+      
+      &__Home{
+        padding: 5vw 0 0 7vw;
+      }
+      &__Contact{
+        padding: 5vw 0 0 3vw;
+      }
+      &__Welcome{
+        padding: 5vw 0 0 3vw;
+      }
+    }
+    &__Right{
+        display: flex;
+        justify-content: flex-end;
+        margin-right:5vw;  
+    }
+    .Cart{
+        color: #642C99;
+        margin: 0 0 0 0;
+    }
+    @media screen and (max-width:768px){  
+      .Cart{
+          margin:10vw 0 0 0;
+      }
+      }
+    
+
+}

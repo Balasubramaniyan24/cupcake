@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
+.Simple{
+    background-color:#FEEFD0;
+    width: 100vw;
+    box-sizing: border-box;
+    &__Left{
+        padding: 15vw 7vw 0 7vw;
+        color: #642C99;
+
+        .First{
+            font-size: 3rem;
+            padding-bottom: 5vw;
+            font-weight: 400;
+            font-family: wendy one;
+        }
+        @media screen and (min-width:512px) {
+            .First{
+            font-size: 5rem;
+        }
+        }
+        .Second{
+            padding-bottom: 10vw;
+        }
+        @media screen and (min-width:512px) {
+            .Second{
+                font-size: 2rem;
+                padding-bottom: 7vw;
+            }
+        }
+        button{
+            color: #FEEFD0;
+            width: 50vw;
+            height:30px;
+            border-radius:10px;
+            background-color: #642C99;
+        }
+        @media screen and (min-width:512px) {
+            button{
+                width: 17vw;
+                height: 50px;
+                font-size: 1.2rem;
+            }
+        }
+
+    }
+    @media screen and (min-width:512px) { 
+        &__Left{  
+            padding:5vw 7vw 0 7vw ;
+        }
+    }
+    &__Right{
+
+        img{
+            width: 150px;
+            margin: 10vw 0 0 40vw;
+        }
+        @media screen and (min-width:512px) {
+            img{
+                width: 13vw;
+                margin:100px 0;
+            }
+            
+        }
+    }
+    @media screen and (min-width:512px) {   
+        display: flex;
+    }
+}
