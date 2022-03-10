@@ -13,7 +13,7 @@ const date =new Date().getFullYear();
             </div>
             <div className='Footer__First__Right'>
                 <div className="Suger">
-                    <lable>Suger up your Inbox</lable>
+                    <label>Suger up your Inbox</label>
                     <input type="email" placeholder="Email address" />
                 </div>
             </div>
