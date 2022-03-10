@@ -46,9 +46,8 @@
             flex-direction: column;
             padding: 7vw 0 0 7vw;
         } 
-    }
-
-    &__Right{
+    } 
+     &__Right{
 
         .Video{
            width: 90%;
@@ -57,11 +56,18 @@
         }
         @media screen and (min-width:512px) {
             .Video{
-              width:70% ;
-             padding:5vw 5vw 3vw 15vw ;
+              width:95% ;
+              
                        
             } 
         }
 
+    }
+    @media screen and (min-width:512px) {
+        &__Right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
     }
 }

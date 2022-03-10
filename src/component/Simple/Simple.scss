@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
 .Simple{
     background-color:#FEEFD0;
-    //width: 100vw;
     box-sizing: border-box;
     &__Left{
         padding: 15vw 7vw 0 7vw;
@@ -67,5 +66,11 @@
     }
     @media screen and (min-width:512px) {   
         display: flex;
+       
     }
+}
+@media screen and (min-width:512px){
+.Simple{
+    height: 700px;
+}
 }

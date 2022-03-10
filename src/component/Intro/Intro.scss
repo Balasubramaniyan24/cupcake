@@ -3,6 +3,7 @@
 .Intro{
     background-color:#FEEFD0;
     display: flex;
+    box-sizing: border-box;
 
     &__Left{
         padding:5vw  7vw ;
@@ -24,6 +25,7 @@
             color: #642C99;
             font-weight: 400; 
             padding-bottom: 3vw;
+            font-family: lato;
         }
         @media screen and (max-width:768px) {
             p{
@@ -32,8 +34,8 @@
         }
 
         button{
-          width:30%; 
-          height:6%;
+          width:25%; 
+          height:8%;
           font-family: Lato;
           background-color: #642C99;
           color: #FEEFD0;
@@ -43,11 +45,9 @@
         @media screen and (max-width:768px) {
             button{
                 width: 60%;
-                height: 40px;
+                height: 35px;
             }
         }
-
-
     }
     &__Right{
         .imag{
@@ -61,6 +61,7 @@
             .imag{
                 width: 60vw;
                 padding-left: 40vw;
+                display: block;
             }
         }
         
@@ -72,5 +73,6 @@
     .Intro{
         display: flex;
         flex-direction: column;
+  
     }
 }

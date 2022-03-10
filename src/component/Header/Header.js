@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Header.scss"
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart'
+import images from '../../assets/images';
 function Header() {
   return (
     <div className='Header'>
@@ -16,9 +16,7 @@ function Header() {
         </div>
         </div>
       <div className="Header__Right">
-       <div className='Cart'>
-       <ShoppingCartIcon style={{ fontSize: "3rem" }} />
-       </div>
+       <img src={images.cart} className ="cart" />
       </div>
     </div>
   )

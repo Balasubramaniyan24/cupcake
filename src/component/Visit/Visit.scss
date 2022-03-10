@@ -17,15 +17,17 @@
         } 
     }
     &__Right{
-        padding:0  0 0 3vw ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         iframe{
-            border: 0;    
+            border: 0;   
+            width: 90vw;
+            height: 50vw; 
         }
         @media screen and (min-width: 768px){
             iframe{
-               width: 60%; 
-               height: 500px;
-              // padding: 5vw 0 0 1vw;
+             
             }
         }   
     }
