@@ -16,7 +16,7 @@ function Header() {
         </div>
         </div>
       <div className="Header__Right">
-       <img src={images.cart} className ="cart" />
+       <img src={images.cart} className ="cart" alt="" />
       </div>
     </div>
   )
