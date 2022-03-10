@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
 .Simple{
     background-color:#FEEFD0;
-    width: 100vw;
+    //width: 100vw;
     box-sizing: border-box;
     &__Left{
         padding: 15vw 7vw 0 7vw;
@@ -36,7 +36,7 @@
         }
         @media screen and (min-width:512px) {
             button{
-                width: 17vw;
+                width: 15vw;
                 height: 50px;
                 font-size: 1.2rem;
             }
@@ -45,19 +45,22 @@
     }
     @media screen and (min-width:512px) { 
         &__Left{  
-            padding:5vw 7vw 0 7vw ;
+            padding:7vw 7vw 0 7vw ;
         }
     }
     &__Right{
 
         img{
             width: 150px;
-            margin: 10vw 0 0 40vw;
+            padding: 10vw 0 0 45vw;
         }
         @media screen and (min-width:512px) {
             img{
-                width: 13vw;
-                margin:100px 0;
+                width: 15vw;
+                padding-bottom: 1vw;
+                padding-left: 0;
+                padding-top:5vw ;
+                
             }
             
         }

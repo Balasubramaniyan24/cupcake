@@ -16,13 +16,13 @@ const date =new Date().getFullYear();
                     <lable>Suger up your Inbox</lable>
                     <input type="email" placeholder="Email address" />
                 </div>
-                <div>
+            </div>
+            <div className='btn'>
                     <button>SEND</button>
-                </div>
             </div>
         </div>
         <div className="Footer__Second">
-            <div className="Left">
+            <div className="Footer__Second__Left">
                 <div className="name">
                     Shop
                 </div>
@@ -33,7 +33,7 @@ const date =new Date().getFullYear();
                     why Miss cupcake
                 </div>
             </div>
-                <div className="Right">
+                <div className="Footer__Second__Right">
                 <div className="Rig">
                     Privacy policy
                 </div>

@@ -10,10 +10,11 @@ function Intro() {
                 <div className='Title item2'>cupcake</div>
         </div>
         <p>We are proud to offer cupcakes and cakes that are freshly baked within hours, if not minutes, for your enjoyment.</p>
-        <button> visit us</button>
+        <button> VISIT US</button>
       </div>
       <div className='Intro__Right'>
-      <img src={images.cake} alt="" className="image" />
+      <img src={images.int} alt="" className="image" />
+      <img src={images.cake} alt="" className="imag" />
       </div>
     </div>
   )

@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Wendy+One&display=swap');
 .Header{
     background-color: #FCEFD2;
-    width: 100vw;
+    //width: 100vw;
+    box-sizing: border-box;
     
     &__Left{
       display:flex;
       color: #642C99;
       font-weight: 300;
       font-size: 1.5rem;
+      font-family: lato;
 
       @media screen and (max-width:768px){  
         display:none;

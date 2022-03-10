@@ -1,5 +1,5 @@
 .Footer{
-    width: 100vw;
+    //width: 100vw;
     box-sizing: border-box;
     background-color:#5D3394;
 
@@ -15,24 +15,21 @@
             }
             @media screen and (min-width:512px) {
                 .Miss{
-                   font-size: 4rem;
-                   padding-bottom: 7rem;
+                   font-size: 3rem;
+                   padding-bottom: 0rem;
                 }
             }
         }
-        @media screen and (min-width:512px) {
-           padding: 5vw 7vw 0  7vw;
-        }
-
+       
         &__Right{
                 
             lable{
-                margin-bottom: 5vw;
+                padding-bottom:5vw;
             }
             @media screen and (min-width:512px) {
                 lable{
                     font-size: 1.5rem;
-                    margin-bottom: 2vw;
+                    padding-bottom: 3vw;
                 }
             }    
             input{
@@ -58,86 +55,84 @@
                 padding-bottom:5vw;
             }
 
-            button{
-                width: 85vw;
-                background-color: #FDEFD1;
-                padding: 2vw;
-                border-radius: 5px;
-                border: 2px solid #FDEFD1 ;
-                color: #5D3394;
+            
+        }  
+        @media screen and (min-width:512px) {
+            &__Right{
+                padding:0 0 0 25vw;
+              
             }
-            @media screen and (min-width:512px) {
-                button{
-                    margin: 70px;
-                    width: 7vw;
-                    padding: 1vw ;
-                }
-            }    
+        }  
+        button{
+            width: 85vw;
+            background-color: #FDEFD1;
+            padding: 2vw;
+            border-radius: 5px;
+            border: 2px solid #FDEFD1 ;
+            color: #5D3394;
+        }
+        .btn{
+
         }
         @media screen and (min-width:512px) {
-         &__Right{
-             padding: 0 10vw;
-             display: flex;
-         }
+            .btn{
+                padding:5vw 0 0 5vw;
+            }
         }
-     
-    
+
+        @media screen and (min-width:512px) {
+            button{
+                width: 7vw;
+                padding: 1vw ;
+            }
+    }
     }
     @media screen and (min-width:512px) {
         &__First{
             display: flex;
-            padding-top: 10vw;
-            justify-content: center;
-            align-content: center;
-        }
+            padding-bottom: 3vw;
+        }      
     }
-
+   
     &__Second{
         padding: 10vw 7vw 5vw 7vw;
         color: #FDEFD1;
-        .name{
-            padding-bottom: 5vw;
-        }
-        @media screen and (min-width:512px) {
+        &__Left{
             .name{
-                padding-bottom: 2vw;
-                font-size: 1.2rem;
-            }
-        }
-        .Right{
-            .Rig{
                 padding-bottom: 5vw;
             }
             @media screen and (min-width:512px) {
+                .name{
+                    padding-bottom: 3vw;
+                }
+            }
+        }
+        &__Right{
+            .Rig{
+                padding-bottom: 5vw;
+            } 
+            @media screen and (min-width:512px) {
                 .Rig{
-                    padding-bottom: 2vw;
-                    font-size: 1.2rem;
+                    padding-bottom: 3vw;
                 }
             }
         }
         @media screen and (min-width:512px) {
-            .Right{
-                padding-left: 15vw;
+            &__Right{
+                padding: 0 0 0 29vw;
             }
         }
+       
     }
     @media screen and (min-width:512px) {
         &__Second{
             display: flex;
-            //justify-content: center;
-            //align-content: center;
-            padding: 1vw 0vw  3vw 16vw;
-        }
+            padding-top: 0vw;
+        }      
     }
     .copy{
         color: #FDEFD1;
         padding: 0vw  0 5vw  7vw;
-    }
-     @media screen and (min-width:512px) {
-        .copy{
-            font-size: 1.3rem;
-            padding:0 0 4vw 16vw;
         }
-    }
 
 }
